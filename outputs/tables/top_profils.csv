@@ -1,0 +1,16 @@
+job,education,marital,nb_clients,taux_conversion,solde_moyen,profil
+student,secondary,single,182,80.22,1344.38,student / secondary / single
+self-employed,tertiary,single,110,68.18,1940.65,self-employed / tertiary / single
+retired,secondary,married,245,64.49,3085.23,retired / secondary / married
+retired,primary,married,200,64.0,2254.44,retired / primary / married
+technician,tertiary,single,252,58.33,1957.38,technician / tertiary / single
+management,tertiary,single,778,57.97,1863.13,management / tertiary / single
+technician,tertiary,married,227,53.3,1659.02,technician / tertiary / married
+unemployed,secondary,married,123,49.59,1247.35,unemployed / secondary / married
+management,tertiary,divorced,243,49.38,1801.79,management / tertiary / divorced
+admin.,secondary,divorced,164,48.78,960.6,admin. / secondary / divorced
+management,tertiary,married,1157,48.66,1808.87,management / tertiary / married
+admin.,secondary,single,371,48.25,1221.25,admin. / secondary / single
+blue-collar,secondary,single,316,46.52,1006.74,blue-collar / secondary / single
+technician,secondary,single,412,45.63,1283.75,technician / secondary / single
+services,secondary,single,245,45.31,846.52,services / secondary / single

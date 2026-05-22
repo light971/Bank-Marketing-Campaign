@@ -1,0 +1,16 @@
+feature,label,importance
+duration,Durée de l'appel,0.2686283407230237
+log_duration,Durée appel (log),0.24193405908128976
+month_num,Mois de contact,0.11760038633230138
+contact,Canal de contact,0.08322674655986241
+housing,Prêt immobilier,0.05232653045074979
+poutcome,Résultat campagne précédente,0.04707108091825264
+previous,Nb contacts précédents,0.03843062494133799
+age,Âge,0.037701650858756736
+contacts_ratio,Ratio contacts,0.03486540063336925
+has_previous_contact,Déjà contacté (oui/non),0.020262679271394062
+balance,Solde bancaire,0.016623510925513046
+log_balance,Solde bancaire (log),0.01222964672599569
+education,Niveau d'éducation,0.007008600588760693
+loan,Prêt personnel,0.0069610612393752646
+age_group,Tranche d'âge,0.0057457038592849015
