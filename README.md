@@ -85,7 +85,7 @@ eda_project/
 
 | Insight | Détail | Impact estimé |
 |--------|--------|---------------|
-| 🗓️ Timing optimal | Les mois de **mars, septembre et decembre** affichent les meilleurs taux de conversion | +XX% vs moyenne |
+| 🗓️ Timing optimal | Les mois de **mars, septembre et decembre** affichent les meilleurs taux de conversion | +48,30 % vs moyenne |
 | 📞 Point de saturation | Au-delà de **3 contacts**, le taux de conversion chute drastiquement | Réduction du coût/lead |
 | 👤 Profil idéal | Clients **retraités et étudiants**, sans défaut de crédit, contactés en cellulaire | Taux de conv. XX% |
 | 🔁 Levier campagne précédente | Les clients ayant **déjà souscrit** lors d'une campagne précédente convertissent 3x plus | Ciblage prioritaire |
