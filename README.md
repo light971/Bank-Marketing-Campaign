@@ -87,7 +87,7 @@ eda_project/
 |--------|--------|---------------|
 | 🗓️ Timing optimal | Les mois de **mars, septembre et decembre** affichent les meilleurs taux de conversion | +48,30 % vs moyenne |
 | 📞 Point de saturation | Au-delà de **3 contacts**, le taux de conversion chute drastiquement | Réduction du coût/lead |
-| 👤 Profil idéal | Clients **retraités et étudiants**, sans défaut de crédit, contactés en cellulaire | Taux de conv. XX% |
+| 👤 Profil idéal | Clients **retraités et étudiants**, sans défaut de crédit, contactés en cellulaire | Taux de conv. 47% |
 | 🔁 Levier campagne précédente | Les clients ayant **déjà souscrit** lors d'une campagne précédente convertissent 3x plus | Ciblage prioritaire |
 | 💰 ROI par segment | Le segment "score élevé" représente XX% des contacts pour XX% des conversions | Optimisation budget |
 
