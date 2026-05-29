@@ -81,8 +81,6 @@ eda_project/
 
 ## Principaux insights
 
-> ⚠️ *Section mise à jour après analyse complète du notebook*
-
 | Insight | Détail | Impact estimé |
 |--------|--------|---------------|
 | Timing optimal | Les mois de **mars, septembre et decembre** affichent les meilleurs taux de conversion | +48,30 % vs moyenne |
