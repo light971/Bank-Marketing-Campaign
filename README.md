@@ -12,7 +12,7 @@ Une banque portugaise a mené plusieurs campagnes de télémarketing (appels té
 
 ---
 
-## ❓ Questions auxquelles ce projet répond
+## Questions auxquelles ce projet répond
 
 1. Quel est le profil socio-démographique du client qui convertit le mieux ?
 2. Quel est le moment optimal pour contacter un prospect (mois, canal) ?
@@ -22,7 +22,7 @@ Une banque portugaise a mené plusieurs campagnes de télémarketing (appels té
 
 ---
 
-## 🗂️ Structure du projet
+## Structure du projet
 
 ```
 eda_project/
@@ -105,7 +105,7 @@ eda_project/
 
 ---
 
-## ▶️ Lancer le projet
+## Lancer le projet
 
 ```bash
 # Cloner le repo
