@@ -99,7 +99,7 @@ eda_project/
 | Manipulation données | Pandas, NumPy |
 | Visualisation | Matplotlib, Seaborn |
 | Machine Learning | Scikit-learn |
-| SQL | SQLite / BigQuery |
+| SQL | PostgrSQL / BigQuery |
 | Dashboard | Power BI / Looker Studio |
 | Environnement | Jupyter Notebook |
 
