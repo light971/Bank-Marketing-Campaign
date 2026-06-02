@@ -113,7 +113,7 @@ BANK-MARKETING-CAMPAIGN/
 
 | Domaine | Outils |
 |--------|--------|
-| Langage | Python 3.11 |
+| Langage | Python 3.12.7 |
 | Manipulation données | Pandas, NumPy |
 | Visualisation | Matplotlib, Seaborn |
 | Machine Learning | Scikit-learn |
