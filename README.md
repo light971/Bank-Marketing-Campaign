@@ -25,28 +25,46 @@ Une banque portugaise a mené plusieurs campagnes de télémarketing (appels té
 ## Structure du projet
 
 ```
-eda_project/
-│
-├── 📓 notebooks/
-│   └── 01_eda_template.ipynb       ← Analyse complète (EDA + scoring)
-│
-├── 🐍 scripts/
-│   ├── data_loader.py              ← Chargement & nettoyage des données
-│   └── viz_helpers.py              ← Fonctions de visualisation réutilisables
-│
-├── 🗄️ sql/
-│   └── 01_exploration.sql          ← Requêtes SQL d'exploration business
+BANK-MARKETING-CAMPAIGN/
 │
 ├── 📁 data/
-│   ├── raw/                        ← Données brutes originales (non modifiées)
-│   ├── processed/                  ← Données nettoyées
-│   └── external/                   ← Référentiels et enrichissements
+│   ├── 📁 external/
+│   │   └── .gitkeep
+│   ├── 📁 processed/
+│   │   ├── bank_clean.csv
+│   │   ├── bank_scored.csv
+│   │   └── bank_segmented.csv
+│   └── 📁 raw/
+│       ├── .gitkeep
+│       └── bank.csv
 │
-├── 📤 outputs/
-│   ├── figures/                    ← Graphiques exportés (.png)
-│   └── tables/                     ← Tableaux exportés (.csv)
+├── 📁 docs/
+│   ├── Connex_postgreSql.md
+│   └── Connexion_github.md
 │
-└── 📋 reports/                     ← Rapport final + dashboard
+├── 📁 notebooks/
+│   ├── 01_eda_partie1.ipynb
+│   ├── 02_eda_partie2.ipynb
+│   ├── 03_eda_partie3.ipynb
+│   └── 04_dashboard_prep.ipynb
+│
+├── 📁 outputs/
+│   ├── 📁 figures/
+│   │   └── Bank_Marketing_Campaign.png       ← Déplacé ici (faisait de l'ombre à "tables")
+│   └── 📁 tables/                            ← Vide ou à remplir avec tes exports .csv
+│
+├── 📁 reports/                               ← Ce dossier manquait dans ton VS Code !
+│   ├── dashboard.pbix                        ← Déplacé ici + correction typo (dasboard -> dashboard)
+│   └── Dashboard_Marketing_Campaign.pdf      ← Déplacé ici + correction typo (DasboardMarketingCampaing)
+│
+├── 📁 scripts/
+│   ├── data_loader.py
+│   └── viz_helpers.py
+│
+├── 📁 sql/
+│   └── 01_exploration.sql
+│
+└── 📄 README.md
 ```
 
 ---
