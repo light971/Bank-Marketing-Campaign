@@ -127,14 +127,14 @@ BANK-MARKETING-CAMPAIGN/
 
 ```bash
 # Cloner le repo
-git clone https://github.com/light971/bank-marketing-analysis.git
-cd bank-marketing-analysis
+git clone https://github.com/light971/Bank-Marketing-Campaign.git
+cd Bank-Marketing-Campaign
 
 # Installer les dépendances
 pip install -r requirements.txt
 
 # Lancer le notebook
-jupyter notebook notebooks/01_eda_template.ipynb
+jupyter notebook notebooks/01_eda_partie1.ipynb
 ```
 
 **Source des données** : [UCI Machine Learning Repository — Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)  
