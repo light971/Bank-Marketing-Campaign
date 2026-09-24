@@ -117,7 +117,7 @@ BANK-MARKETING-CAMPAIGN/
 | Manipulation données | Pandas, NumPy |
 | Visualisation | Matplotlib, Seaborn |
 | Machine Learning | Scikit-learn |
-| SQL | PostgrSQL / BigQuery |
+| SQL | PostgreSQL / BigQuery |
 | Dashboard | Power BI / Looker Studio |
 | Environnement | Jupyter Notebook |
 
