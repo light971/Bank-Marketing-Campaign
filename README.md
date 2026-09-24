@@ -50,12 +50,12 @@ BANK-MARKETING-CAMPAIGN/
 │
 ├── 📁 outputs/
 │   ├── 📁 figures/
-│   │   └── Bank_Marketing_Campaign.png       
-│   └── 📁 tables/                            
+│   │   └── Bank_Marketing_Campaign.png
+│   └── 📁 tables/
 │
-├── 📁 reports/                             
-│   ├── dashboard.pbix                      
-│   └── Dashboard_Marketing_Campaign.pdf      
+├── 📁 reports/
+│   ├── dashboard.pbix
+│   └── Dashboard_Marketing_Campaign.pdf
 │
 ├── 📁 scripts/
 │   ├── data_loader.py
@@ -64,6 +64,7 @@ BANK-MARKETING-CAMPAIGN/
 ├── 📁 sql/
 │   └── 01_exploration.sql
 │
+├── 📄 requirements.txt
 └── 📄 README.md
 ```
 
