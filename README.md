@@ -100,13 +100,30 @@ BANK-MARKETING-CAMPAIGN/
 
 ## Principaux insights
 
-| Insight | Détail | Impact estimé |
-|--------|--------|---------------|
-| Timing optimal | Les mois de **mars, septembre et decembre** affichent les meilleurs taux de conversion | +48,30 % vs moyenne |
-| Point de saturation | Au-delà de **3 contacts**, le taux de conversion chute drastiquement | Réduction du coût/lead |
-| Profil idéal | Clients **retraités et étudiants**, sans défaut de crédit, contactés en cellulaire | Taux de conv. 4,7 % |
-| Levier campagne précédente | Les clients ayant **déjà souscrit** lors d'une campagne précédente convertissent 3x plus | Ciblage prioritaire |
-| ROI par segment | Le segment "score élevé" représente 0,47% des contacts pour 47% des conversions | Optimisation budget |
+| Insight | Résultat | Impact business |
+|---|---|---|
+| Scoring de propension | Le modèle (Gradient Boosting, AUC = 0,78 en validation croisée 5 folds) classe efficacement les leads : **16 %** de conversion dans le décile le plus bas, **90 %** dans le plus haut | Les 30 % de clients les mieux scorés concentrent **52 %** des conversions |
+| Anciens souscripteurs | Les clients ayant souscrit lors d'une campagne précédente convertissent à **91 %**, soit 1,9 fois la moyenne (47 %) | Liste prioritaire à contacter dès le lancement (1 071 clients) |
+| Point de saturation | 53 % de conversion au 1er contact, plateau autour de 46 % aux 2e et 3e, puis **41 %** dès le 4e et moins de 30 % au-delà de 8 | Limiter les relances à 3 contacts par prospect |
+| Timing | Mai concentre **25 %** des appels mais affiche le pire taux (33 %). Mars, septembre, octobre et décembre dépassent 80 %, mais sur seulement 10 % des contacts | Mieux étaler les appels au lieu de concentrer l'effort sur mai |
+| Profil client | Étudiants (75 %) et retraités (66 %) convertissent le mieux ; le profil « étudiant / secondaire / célibataire » atteint **80 %** | Adapter le discours et le ciblage à ces profils |
+| Valeur client | Les clients au solde bancaire élevé (quartile supérieur) convertissent à **57 %**, contre 36 % pour le quartile inférieur | Le solde est un critère de priorisation simple à utiliser |
+
+## Recommandations marketing
+
+1. **Prioriser les appels selon le score** : commencer par les 3 déciles supérieurs (30 % des clients, 52 % des conversions), puis descendre dans le classement tant que le coût par appel reste rentable.
+2. **Contacter en priorité absolue les anciens souscripteurs** : 91 % de conversion, c'est le levier le plus fort et le moins coûteux de la campagne.
+3. **Limiter les relances à 3 contacts** : au-delà, le taux de conversion baisse nettement et chaque appel supplémentaire coûte plus qu'il ne rapporte.
+4. **Rééquilibrer le calendrier** : réduire la concentration des appels en mai (25 % du volume, 33 % de conversion) et tester des vagues d'appels sur les mois plus performants.
+5. **Privilégier le mobile** : le canal cellulaire convertit légèrement mieux que le fixe (54 % vs 50 %), et c'est le canal majoritaire de la campagne.
+
+## ⚠️ Limites
+
+- **Dataset rééquilibré** : cette version Kaggle compte 47 % de conversions, contre environ 12 % dans le dataset UCI d'origine. Les taux absolus sont donc gonflés ; ce sont les écarts entre segments qui comptent.
+- **Durée d'appel exclue du modèle** : elle n'est connue qu'après l'appel et fausserait le scoring (fuite de données).
+- **Scores calculés hors échantillon** (validation croisée) : chaque client est scoré par un modèle entraîné sans lui.
+- **Biais de sélection possible sur les mois** : les mois peu sollicités ont pu cibler des clients déjà chauds. Leur taux élevé ne garantit pas le même résultat à plus grande échelle.
+- **Pas de données de coûts** : le ROI est estimé à partir des taux de conversion, pas d'un calcul financier réel.
 
 ---
 
