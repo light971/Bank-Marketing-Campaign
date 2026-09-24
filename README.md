@@ -50,12 +50,12 @@ BANK-MARKETING-CAMPAIGN/
 │
 ├── 📁 outputs/
 │   ├── 📁 figures/
-│   │   └── Bank_Marketing_Campaign.png       ← Déplacé ici (faisait de l'ombre à "tables")
-│   └── 📁 tables/                            ← Vide ou à remplir avec tes exports .csv
+│   │   └── Bank_Marketing_Campaign.png       
+│   └── 📁 tables/                            
 │
-├── 📁 reports/                               ← Ce dossier manquait dans ton VS Code !
-│   ├── dashboard.pbix                        ← Déplacé ici + correction typo (dasboard -> dashboard)
-│   └── Dashboard_Marketing_Campaign.pdf      ← Déplacé ici + correction typo (DasboardMarketingCampaing)
+├── 📁 reports/                             
+│   ├── dashboard.pbix                      
+│   └── Dashboard_Marketing_Campaign.pdf      
 │
 ├── 📁 scripts/
 │   ├── data_loader.py
